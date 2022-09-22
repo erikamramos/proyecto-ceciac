@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hounter</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header" id="header">
+            <div class="header__container">
+                <div class="header__logo">
+                    <img src="./img/logo.svg" alt="logo" class="header__logo_img">
+                    <p class="header__logo_title">Hounter</p>
+                </div>
+                <nav class="header__menu">
+                    <ul class="header__list">
+                        <li class="header__menu_item click"><a href="#" class="header__menu_link">About Us</a></li>
+                        <li class="header__menu_item click"><a href="#" class="header__menu_link">Article</a></li>
+                        <li class="header__menu_item spoiler">
+                            <a href="#" class="header__menu_link">Property</a>
+                            <div class="header__menu_more">
+                                <span class="heeder-menu-more__line"></span>
+                                <span class="heeder-menu-more__line"></span>
+                            </div>
+                            <ul class="header__sub-menu">
+                                <li class="header__sub-menu_item click"><a href="#" class="header__sub-menu_link">Lorem</a></li>
+                                <li class="header__sub-menu_item click"><a href="#" class="header__sub-menu_link">Ipsum</a></li>
+                                <li class="header__sub-menu_item click"><a href="#" class="header__sub-menu_link">Dolor</a></li>
+                                <li class="header__sub-menu_item click"><a href="#" class="header__sub-menu_link">Sit</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+                <a href="#" class="header__sign ">
+                    Sign Up!
+                </a>
+                <div id="header__burger">
+
+                    <span></span>
+                    <span></span>
+                    <span></span>
+
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <section class="main__find">
+                <div class="find__container">
+                    <div class="find__article">
+                        <h1 class="find__title title">
+                            Find The Place To Live   <span class="border__txt">Dreams</span> Easily Here
+                        </h1>
+                        <p class="find__paragraph paragraph">
+                            Everything you need about finding your place to live will be here, where it will be easier for you
+                        </p>
+                        <div class="find__search">
+                            <img src="./img/icons/location.svg" class="find__search-icon">
+                            <input type="text" class="find__search-input paragraph" placeholder="Search for the location you want!">
+                            <button type="menu" href="#" class="find__search-btn">
+                                <img src="./img/next.svg" alt="search" class="find__search-btn_img">
+                            </button>
+                        </div>
+                        <nav class="find__coo">
+                            <ul class="coo__find coo__list">
+                                <li class="coo__item"><img src="./img/main__find/el1.png" alt="" class="coo__img"></li>
+                                <li class="coo__item"><img src="./img/main__find/el2.png" alt="" class="coo__img"></li>
+                                <li class="coo__item"><img src="./img/main__find/el3.png" alt="" class="coo__img"></li>
+                                <li class="coo__item"><img src="./img/main__find/el4.png" alt="" class="coo__img"></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="find__image">
+                        <img src="./img/main__find/hero-image.png" alt="" class="find__image-img">
+                        <div class="find__slider">
+                            <a href="#" class="slider__item slider-item">
+                                <img src="./img/find__slider/Manhattan Style.png" class="slider-item__img">
+                                <div class="slider-item__article slider-article">
+                                    <span class="slider-article__headline">Manhattan Style</span>
+                                    <p class="slider-article__paragraph">Lorem ipsum dolor sit amet, conser adipiscing elit</p>
+                                    <span class="slider-article__rate">
+                                        <img src="./img/icons/rage.svg" alt="" class="slider-article__rate-icon">
+                                        <span class="slider-article__rate-num" id="rate">4.8</span>
+                                        <span class="slider-article__rate-more" id="numReviews">(400+ Review)</span>
+                                    </span>
+                                </div>
+                            </a>
+                            <a href="#" class="slider__item slider-item">
+                                <img src="./img/find__slider/New House For Your Future.png" class="slider-item__img">
+                                <div class="slider-item__article slider-article">
+                                    <span class="slider-article__headline">New House For Your Future</span>
+                                    <p class="slider-article__paragraph">Lorem ipsum dolor sit amet, conser adipiscing elit</p>
+                                    <span class="slider-article__rate">
+                                        <img src="./img/icons/rage.svg" alt="" class="slider-article__rate-icon">
+                                        <span class="slider-article__rate-num" id="rate">4.8</span>
+                                        <span class="slider-article__rate-more" id="numReviews">(400+ Review)</span>
+                                    </span>
+                                </div>
+                            </a>
+                            <a href="#" class="slider__item slider-item">
+                                <img src="./img/find__slider/Manhattan Style.png" class="slider-item__img">
+                                <div class="slider-item__article slider-article">
+                                    <span class="slider-article__headline">Manhattan Style</span>
+                                    <p class="slider-article__paragraph">Lorem ipsum dolor sit amet, conser adipiscing elit</p>
+                                    <span class="slider-article__rate">
+                                        <img src="./img/icons/rage.svg" alt="" class="slider-article__rate-icon">
+                                        <span class="slider-article__rate-num" id="rate">4.8</span>
+                                        <span class="slider-article__rate-more" id="numReviews">(400+ Review)</span>
+                                    </span>
+                                </div>
+                            </a>
+                            <a href="#" class="slider__item slider-item">
+                                <img src="./img/find__slider/New House For Your Future.png" class="slider-item__img">
+                                <div class="slider-item__article slider-article">
+                                    <span class="slider-article__headline">New House For Your Future</span>
+                                    <p class="slider-article__paragraph">Lorem ipsum dolor sit amet, conser adipiscing elit</p>
+                                    <span class="slider-article__rate">
+                                        <img src="./img/icons/rage.svg" alt="" class="slider-article__rate-icon">
+                                        <span class="slider-article__rate-num" id="rate">4.8</span>
+                                        <span class="slider-article__rate-more" id="numReviews">(400+ Review)</span>
+                                    </span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <img src="./img/main__find/Color Blur.svg" class="find__decor">
+                </div>
+            </section>
+            <section class="main__featured">
+                <div class="featured__container">
+                    <div class="featured__head">
+                        <span class="featured__headline headline">Our Recommendation</span>
+                        <div class="featured__hat featured-hat">
+                            <h2 class="featured-hat__title title">Featured House</h2>
+                            <nav class="featured-hat__categoryes">
+                                <ul class="featured-hat__menu">
+                                    <li id="houseButton" class="featured-hat__menu-item category-active">
+                                        <a href="#" class="featured-hat__menu-link">
+                                            <svg width="18" height="19" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path class="featured-hat__menu-icon" d="M18 8.83189V17.5C17.9998 17.7719 17.9262 18.0386 17.7868 18.272C17.6475 18.5054 17.4476 18.6968 17.2084 18.8259C16.9916 18.9432 16.7485 19.0031 16.5021 18.9999H11.9967C11.7978 18.9999 11.607 18.9209 11.4664 18.7803C11.3257 18.6396 11.2467 18.4488 11.2467 18.2499V13.7493C11.2467 13.5504 11.1677 13.3596 11.0271 13.2189C10.8864 13.0783 10.6956 12.9993 10.4967 12.9993H7.49673C7.29781 12.9993 7.10705 13.0783 6.9664 13.2189C6.82574 13.3596 6.74673 13.5504 6.74673 13.7493V18.2499C6.74673 18.4488 6.66771 18.6396 6.52706 18.7803C6.3864 18.9209 6.19564 18.9999 5.99673 18.9999H1.5002C1.28754 19.0005 1.07723 18.9556 0.883354 18.8682C0.689475 18.7808 0.516507 18.653 0.37604 18.4934C0.12946 18.2082 -0.00428751 17.8427 8.829e-06 17.4657V8.8318C0.000172265 8.62281 0.0439196 8.41615 0.128457 8.22503C0.212994 8.0339 0.336463 7.86251 0.490978 7.7218L7.99032 0.903078C8.26579 0.650753 8.62579 0.510777 8.99936 0.510742C9.37293 0.510707 9.73296 0.650617 10.0085 0.90289L17.5091 7.72189C17.6636 7.86263 17.787 8.03403 17.8716 8.22515C17.9561 8.41627 17.9998 8.62292 18 8.83189Z"/>
+                                            </svg>                                            
+                                            <div class="featured-hat__menu-category">House</div>
+                                        </a>
+                                    </li>
+                                    <li id="villaButton" class="featured-hat__menu-item">
+                                        <a href="#" class="featured-hat__menu-link">
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path class="featured-hat__menu-icon" d="M7 20.9999H4C3.45 20.9999 3 20.5499 3 19.9999V8.68994C3 8.26994 3.25 7.89994 3.64 7.74994L14.64 3.51994C14.7921 3.46126 14.9561 3.44064 15.118 3.45986C15.2798 3.47909 15.4345 3.53758 15.5686 3.63025C15.7027 3.72292 15.8121 3.84696 15.8873 3.99156C15.9624 4.13617 16.0012 4.29696 16 4.45994V9.99994H8C7.45 9.99994 7 10.4499 7 10.9999V20.9999ZM17 11.9999H10C9.45 11.9999 9 12.4499 9 12.9999V19.9999C9 20.5499 9.45 20.9999 10 20.9999H14V16.9999C14 16.4499 14.45 15.9999 15 15.9999C15.55 15.9999 16 16.4499 16 16.9999V20.9999H20C20.55 20.9999 21 20.5499 21 19.9999V11.9999C21 10.8999 20.1 9.99994 19 9.99994C17.9 9.99994 17 10.8999 17 11.9999Z"/>
+                                            </svg>                                                                                            
+                                            <div class="featured-hat__menu-category">Villa</div>
+                                        </a>
+                                    </li>
+                                    <li id="appartmentButton" class="featured-hat__menu-item">
+                                        <a href="#" class="featured-hat__menu-link">
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path class="featured-hat__menu-icon" d="M17 11V5C17 3.9 16.1 3 15 3H9C7.9 3 7 3.9 7 5V7H5C3.9 7 3 7.9 3 9V19C3 20.1 3.9 21 5 21H11V17H13V21H19C20.1 21 21 20.1 21 19V13C21 11.9 20.1 11 19 11H17ZM7 19H5V17H7V19ZM7 15H5V13H7V15ZM7 11H5V9H7V11ZM11 15H9V13H11V15ZM11 11H9V9H11V11ZM11 7H9V5H11V7ZM15 15H13V13H15V15ZM15 11H13V9H15V11ZM15 7H13V5H15V7ZM19 19H17V17H19V19ZM19 15H17V13H19V15Z"/>
+                                            </svg>  
+                                            <div class="featured-hat__menu-category">Apartment</div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                            <div class="featured-hat__navigation btn-house navigationActive"></div>
+                            <div class="featured-hat__navigation btn-villa"></div>
+                            <div class="featured-hat__navigation btn-appartment"></div>
+                        </div>
+                    </div>
+                    <div id="house" class="featured__slider featured-slider slider-active">
+                        <div class="featured-slider__card">
+                            <a href="#" class="featured-slider__image">
+                                <img src="./img/main__featured/featured-slider/house1.png" alt="" class="featured-slider__image-img">
+                                <a href="#" target="_blank" class="featured-slider__tag featured-slider__tag_popular">
+                                    <img src="./img/icons/popular-icon.svg" alt="" class="featured-slider__tag-icon">
+                                    <div class="featured-slider__tag-name">Popular</div>
+                                </a>
+                            </a>
+                            <div class="featured-slider__descr">
+                                <a href="#" class="featured-slider__title">Roselands House</a>
+                                <div class="featured-slider__price">
+                                    <span id="currency" class="featured-slider__price-currency">$</span>
+                                    <span class="featured-slider__price-num">35.000.000</span>
+                                </div>
+                            </div>
+                            <a href="#" class="featured-slider__autor">
+                                <img src="./img/main__featured/featured-slider/autor1.png" alt="" class="featured-slider__avatar">
+                                <div class="featured-slider__autor-descr">
+                                    <div class="featured-slider__autor-name">Dianne Russell</div>
+                                    <div id="place" class="featured-slider__autor-place">Manchester, Kentucky</div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="featured-slider__card">
+                            <a href="#" class="featured-slider__image">
+                                <img src="./img/main__featured/featured-slider/house2.png" alt="" class="featured-slider__image-img">
+                                <a href="#" target="_blank" class="featured-slider__tag featured-slider__tag_new-house">
+                                    <img src="./img/icons/new-house-icon.svg" alt="" class="featured-slider__tag-icon">
+                                    <div class="featured-slider__tag-name">New House</div>
+                                </a>
+                            </a>
+                            <div class="featured-slider__descr">
+                                <a href="#" class="featured-slider__title">Woodlandside</a>
+                                <div class="featured-slider__price">
+                                    <span id="currency" class="featured-slider__price-currency">$</span>
+                                    <span class="featured-slider__price-num">20.000.000</span>
+                                </div>
+                            </div>
+                            <a href="#" class="featured-slider__autor">
+                                <img src="./img/main__featured/featured-slider/autor2.png" alt="" class="featured-slider__avatar">
+                                <div class="featured-slider__autor-descr">
+                                    <div class="featured-slider__autor-name">Robert Fox</div>
+                                    <div id="place" class="featured-slider__autor-place">Dr. San Jose, South Dakota</div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="featured-slider__card">
+                            <a href="#" class="featured-slider__image">
+                                <img src="./img/main__featured/featured-slider/house3.png" alt="" class="featured-slider__image-img">
+                                <a href="#" target="_blank" class="featured-slider__tag featured-slider__tag_best-deals">
+                                    <img src="./img/icons/best-deals-icon.svg" alt="" class="featured-slider__tag-icon">
+                                    <div class="featured-slider__tag-name">Best Deals</div>
+                                </a>
+                            </a>
+                            <div class="featured-slider__descr">
+                                <a href="#" class="featured-slider__title">The Old Lighthouse</a>
+                                <div class="featured-slider__price">
+                                    <span id="currency" class="featured-slider__price-currency">$</span>
+                                    <span class="featured-slider__price-num">44.000.000</span>
+                                </div>
+                            </div>
+                            <a href="#" class="featured-slider__autor">
+                                <img src="./img/main__featured/featured-slider/autor3.png" alt="" class="featured-slider__avatar">
+                                <div class="featured-slider__autor-descr">
+                                    <div class="featured-slider__autor-name">Ronald Richards</div>
+                                    <div id="place" class="featured-slider__autor-place">Santa Ana, Illinois</div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="featured-slider__card">
+                            <a href="#" class="featured-slider__image">
+                                <img src="./img/main__featured/featured-slider/house4.png" alt="" class="featured-slider__image-img">
+                                <a href="#" target="_blank" class="featured-slider__tag featured-slider__tag_popular">
+                                    <img src="./img/icons/popular-icon.svg" alt="" class="featured-slider__tag-icon">
+                                    <div class="featured-slider__tag-name">Popular</div>
+                                </a>
+                            </a>
+                            <div class="featured-slider__descr">
+                                <a href="#" class="featured-slider__title">Cosmo's House</a>
+                                <div class="featured-slider__price">
+                                    <span id="currency" class="featured-slider__price-currency">$</span>
+                                    <span class="featured-slider__price-num">22.000.000</span>
+                                </div>
+                            </div>
+                            <a href="#" class="featured-slider__autor">
+                                <img src="./img/main__featured/featured-slider/autor4.png" alt="" class="featured-slider__avatar">
+                                <div class="featured-slider__autor-descr">
+                                    <div class="featured-slider__autor-name">Jenny Wilson</div>
+                                    <div id="place" class="featured-slider__autor-place">Preston Rd. Inglewood, Maine 98380</div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div id="villa" class="featured__slider featured-slider">
+                        <div class="featured-slider__card">
+                            <a href="#" class="featured-slider__image">
+                                <img src="./img/main__featured/featured-slider/house4.png" alt="" class="featured-slider__image-img">
+                                <a href="#" target="_blank" class="featured-slider__tag featured-slider__tag_popular">
+                                    <img src="./img/icons/popular-icon.svg" alt="" class="featured-slider__tag-icon">
+                                    <div class="featured-slider__tag-name">Popular</div>
+                                </a>
+                            </a>
+                            <div class="featured-slider__descr">
+                                <a href="#" class="featured-slider__title">Cosmo's House</a>
+                                <div class="featured-slider__price">
+                                    <span id="currency" class="featured-slider__price-currency">$</span>
+                                    <span class="featured-slider__price-num">22.000.000</span>
+                                </div>
+                            </div>
+                            <a href="#" class="featured-slider__autor">
+                                <img src="./img/main__featured/featured-slider/autor4.png" alt="" class="featured-slider__avatar">
+                                <div class="featured-slider__autor-descr">
+                                    <div class="featured-slider__autor-name">Jenny Wilson</div>
+                                    <div id="place" class="featured-slider__autor-place">Preston Rd. Inglewood, Maine 98380</div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="featured-slider__card">
+                            <a href="#" class="featured-slider__image">
+                                <img src="./img/main__featured/featured-slider/house1.png" alt="" class="featured-slider__image-img">
+                                <a href="#" target="_blank" class="featured-slider__tag featured-slider__tag_popular">
+                                    <img src="./img/icons/popular-icon.svg" alt="" class="featured-slider__tag-icon">
+                                    <div class="featured-slider__tag-name">Popular</div>
+                                </a>
+                            </a>
+                            <div class="featured-slider__descr">
+                                <a href="#" class="featured-slider__title">Roselands House</a>
+                                <div class="featured-slider__price">
+                                    <span id="currency" class="featured-slider__price-currency">$</span>
+                                    <span class="featured-slider__price-num">35.000.000</span>
+                                </div>
+                            </div>
+                            <a href="#" class="featured-slider__autor">
+                                <img src="./img/main__featured/featured-slider/autor1.png" alt="" class="featured-slider__avatar">
+                                <div class="featured-slider__autor-descr">
+                                    <div class="featured-slider__autor-name">Dianne Russell</div>
+                                    <div id="place" class="featured-slider__autor-place">Manchester, Kentucky</div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="featured-slider__card">
+                            <a href="#" class="featured-slider__image">
+                                <img src="./img/main__featured/featured-slider/house2.png" alt="" class="featured-slider__image-img">
+                                <a href="#" target="_blank" class="featured-slider__tag featured-slider__tag_new-house">
+                                    <img src="./img/icons/new-house-icon.svg" alt="" class="featured-slider__tag-icon">
+                                    <div class="featured-slider__tag-name">New House</div>
+                                </a>
+                            </a>
+                            <div class="featured-slider__descr">
+                                <a href="#" class="featured-slider__title">Woodlandside</a>
+                                <div class="featured-slider__price">
+                                    <span id="currency" class="featured-slider__price-currency">$</span>
+                                    <span class="featured-slider__price-num">20.000.000</span>
+                                </div>
+                            </div>
+                            <a href="#" class="featured-slider__autor">
+                                <img src="./img/main__featured/featured-slider/autor2.png" alt="" class="featured-slider__avatar">
+                                <div class="featured-slider__autor-descr">
+                                    <div class="featured-slider__autor-name">Robert Fox</div>
+                                    <div id="place" class="featured-slider__autor-place">Dr. San Jose, South Dakota</div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="featured-slider__card">
+                            <a href="#" class="featured-slider__image">
+                                <img src="./img/main__featured/featured-slider/house3.png" alt="" class="featured-slider__image-img">
+                                <a href="#" target="_blank" class="featured-slider__tag featured-slider__tag_best-deals">
+                                    <img src="./img/icons/best-deals-icon.svg" alt="" class="featured-slider__tag-icon">
+                                    <div class="featured-slider__tag-name">Best Deals</div>
+                                </a>
+                            </a>
+                            <div class="featured-slider__descr">
+                                <a href="#" class="featured-slider__title">The Old Lighthouse</a>
+                                <div class="featured-slider__price">
+                                    <span id="currency" class="featured-slider__price-currency">$</span>
+                                    <span class="featured-slider__price-num">44.000.000</span>
+                                </div>
+                            </div>
+                            <a href="#" class="featured-slider__autor">
+                                <img src="./img/main__featured/featured-slider/autor3.png" alt="" class="featured-slider__avatar">
+                                <div class="featured-slider__autor-descr">
+                                    <div class="featured-slider__autor-name">Ronald Richards</div>
+                                    <div id="place" class="featured-slider__autor-place">Santa Ana, Illinois</div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div id="appartment" class="featured__slider featured-slider">
+                        <div class="featured-slider__card">
+                            <a href="#" class="featured-slider__image">
+                                <img src="./img/main__featured/featured-slider/house3.png" alt="" class="featured-slider__image-img">
+                                <a href="#" target="_blank" class="featured-slider__tag featured-slider__tag_best-deals">
+                                    <img src="./img/icons/best-deals-icon.svg" alt="" class="featured-slider__tag-icon">
+                                    <div class="featured-slider__tag-name">Best Deals</div>
+                                </a>
+                            </a>
+                            <div class="featured-slider__descr">
+                                <a href="#" class="featured-slider__title">The Old Lighthouse</a>
+                                <div class="featured-slider__price">
+                                    <span id="currency" class="featured-slider__price-currency">$</span>
+                                    <span class="featured-slider__price-num">44.000.000</span>
+                                </div>
+                            </div>
+                            <a href="#" class="featured-slider__autor">
+                                <img src="./img/main__featured/featured-slider/autor3.png" alt="" class="featured-slider__avatar">
+                                <div class="featured-slider__autor-descr">
+                                    <div class="featured-slider__autor-name">Ronald Richards</div>
+                                    <div id="place" class="featured-slider__autor-place">Santa Ana, Illinois</div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="featured-slider__card">
+                            <a href="#" class="featured-slider__image">
+                                <img src="./img/main__featured/featured-slider/house4.png" alt="" class="featured-slider__image-img">
+                                <a href="#" target="_blank" class="featured-slider__tag featured-slider__tag_popular">
+                                    <img src="./img/icons/popular-icon.svg" alt="" class="featured-slider__tag-icon">
+                                    <div class="featured-slider__tag-name">Popular</div>
+                                </a>
+                            </a>
+                            <div class="featured-slider__descr">
+                                <a href="#" class="featured-slider__title">Cosmo's House</a>
+                                <div class="featured-slider__price">
+                                    <span id="currency" class="featured-slider__price-currency">$</span>
+                                    <span class="featured-slider__price-num">22.000.000</span>
+                                </div>
+                            </div>
+                            <a href="#" class="featured-slider__autor">
+                                <img src="./img/main__featured/featured-slider/autor4.png" alt="" class="featured-slider__avatar">
+                                <div class="featured-slider__autor-descr">
+                                    <div class="featured-slider__autor-name">Jenny Wilson</div>
+                                    <div id="place" class="featured-slider__autor-place">Preston Rd. Inglewood, Maine 98380</div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="featured-slider__card">
+                            <a href="#" class="featured-slider__image">
+                                <img src="./img/main__featured/featured-slider/house1.png" alt="" class="featured-slider__image-img">
+                                <a href="#" target="_blank" class="featured-slider__tag featured-slider__tag_popular">
+                                    <img src="./img/icons/popular-icon.svg" alt="" class="featured-slider__tag-icon">
+                                    <div class="featured-slider__tag-name">Popular</div>
+                                </a>
+                            </a>
+                            <div class="featured-slider__descr">
+                                <a href="#" class="featured-slider__title">Roselands House</a>
+                                <div class="featured-slider__price">
+                                    <span id="currency" class="featured-slider__price-currency">$</span>
+                                    <span class="featured-slider__price-num">35.000.000</span>
+                                </div>
+                            </div>
+                            <a href="#" class="featured-slider__autor">
+                                <img src="./img/main__featured/featured-slider/autor1.png" alt="" class="featured-slider__avatar">
+                                <div class="featured-slider__autor-descr">
+                                    <div class="featured-slider__autor-name">Dianne Russell</div>
+                                    <div id="place" class="featured-slider__autor-place">Manchester, Kentucky</div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="featured-slider__card">
+                            <a href="#" class="featured-slider__image">
+                                <img src="./img/main__featured/featured-slider/house2.png" alt="" class="featured-slider__image-img">
+                                <a href="#" target="_blank" class="featured-slider__tag featured-slider__tag_new-house">
+                                    <img src="./img/icons/new-house-icon.svg" alt="" class="featured-slider__tag-icon">
+                                    <div class="featured-slider__tag-name">New House</div>
+                                </a>
+                            </a>
+                            <div class="featured-slider__descr">
+                                <a href="#" class="featured-slider__title">Woodlandside</a>
+                                <div class="featured-slider__price">
+                                    <span id="currency" class="featured-slider__price-currency">$</span>
+                                    <span class="featured-slider__price-num">20.000.000</span>
+                                </div>
+                            </div>
+                            <a href="#" class="featured-slider__autor">
+                                <img src="./img/main__featured/featured-slider/autor2.png" alt="" class="featured-slider__avatar">
+                                <div class="featured-slider__autor-descr">
+                                    <div class="featured-slider__autor-name">Robert Fox</div>
+                                    <div id="place" class="featured-slider__autor-place">Dr. San Jose, South Dakota</div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="main__tour">
+                <div class="tour__container">
+                    <div class="tour__article">
+                        <div class="tour__headline headline">Ready To Sell!</div>
+                        <h2 class="tour__title title">Let’s tour and see our house!</h2>
+                        <p class="tour__paragraph paragraph">
+                            Houses recommended by our partners that have been curated to become the home of your dreams!
+                        </p>
+                        <div class="tour__bottom">
+                            <div class="tour__detail">
+                                <h4 class="tour__title_detail title">House Detail</h4>
+                                <ul class="tour__detail-list">
+                                    <li class="tour__detail-el _bedroom">
+                                        <img src="./img/icons/bed-icon.svg" alt="bedroom" class="tour__detail-icon">
+                                        <span class="tour__detail-descr">
+                                            <span class="tour__detail-num">4</span>
+                                            <span class="tour__detail-mean">Bedrooms</span>
+                                        </span>
+                                    </li>
+                                    <li class="tour__detail-el _bathroom">
+                                        <img src="./img/icons/bath-icon.svg" alt="bathroom" class="tour__detail-icon">
+                                        <span class="tour__detail-descr">
+                                            <span class="tour__detail-num">2</span>
+                                            <span class="tour__detail-mean">Bathrooms</span>
+                                        </span>
+                                    </li>
+                                    <li class="tour__detail-el _carport">
+                                        <img src="./img/icons/carport-icon.svg" alt="carport" class="tour__detail-icon">
+                                        <span class="tour__detail-descr">
+                                            <span class="tour__detail-num">1</span>
+                                            <span class="tour__detail-mean">Carport</span>
+                                        </span>
+                                    </li>
+                                    <li class="tour__detail-el _floors">
+                                        <img src="./img/icons/floors-icon.svg" alt="floors" class="tour__detail-icon">
+                                        <span class="tour__detail-descr">
+                                            <span class="tour__detail-num">2</span>
+                                            <span class="tour__detail-mean">Floors</span>
+                                        </span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="tour__call-box">
+                                <a href="#" class="tour__user">
+                                    <img src="./img/main__featured/featured-slider/autor1.png" alt="" class="tour__user-avatar">
+                                    <div class="tour__user-descr">
+                                        <span class="tour__user-name">Dianne Russell</span>
+                                        <span class="tour__user-status">Manager Director</span>
+                                    </div>
+                                </a>
+                                <a href="#" class="tour__button">
+                                    <img src="./img/icons/phone.svg" alt="Contact Now" class="tour__call-icon">
+                                    Contact Now
+                                </a>
+                            </div>    
+                        </div>
+                    </div>
+                    <div class="tour__images">
+                        <iframe class="tour__video" width="560" height="315" src="https://www.youtube.com/embed/7ns06N1Q6Lk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <ul class="tour__images-list">  
+                            <img src="./img/main__tour/interier1.jpg" alt="sofa" class="tour__img">
+                            <div class="image__list-other">
+                                <img src="./img/main__tour/interier2.jpg" alt="wall" class="tour__img">
+                                <img src="./img/main__tour/interier3.jpg" alt="chair" class="tour__img">    
+                            </div>
+                        </ul>
+                        <img src="./img/main__tour/red-decor.svg" class="tour__decor tour-decor__red">
+                        <img src="./img/main__tour/yellow-decor.svg" class="tour__decor tour-decor__yellow">        
+                    </div>
+                </div>
+            </section>
+            <section class="main__about-us">
+                <div class="about-us__container">
+                    <div class="about-us__head head-center">
+                        <span class="about-us__headline headline headline_center">See Our Review</span>
+                        <div class="about-us__hat about-us-hat">
+                            <h2 class="about-us-hat__title title title_center">What Our User Say About Us</h2>
+                        </div>
+                    </div>
+                    <div class="about-us__slider">
+                        <div class="about-us__slide">
+                            <a href="#" class="about-us__image-box">
+                                <img src="./img/main__about-us/about-us__slider/image2.jpg" alt="house" class="about-us__img">
+                            </a>
+                            <div class="review-box">
+                                <div class="about-us__review">
+                                    <a href="#" class="about-us__title_review title">My house sold out fast!</a>
+                                    <p class="about-us__paragraph_review review">I was finally able to sell my house quickly through Hounter by immediately setting me up with people who wanted my house. I also do not get a discount from the sale of my house. Awesome!</p>
+                                    <div class="about-us__rate">
+                                        <a href="#" class="about-us__user">
+                                            <img src="./img/main__featured/featured-slider/autor2.png" alt="users avatar" class="about-us__avatar">
+                                            <div class="about-us__user-descr">
+                                                <div class="about-us__user-name">Courtney Henry</div>
+                                                <div class="about-us__user-status">CEO Andarafish</div>
+                                            </div>
+                                        </a>
+                                        <span class="about-us__rate-item">
+                                            <img src="./img/icons/rage.svg" alt="rate" class="about-us__rate-icon">
+                                            <span id="rateNumber" class="about-us__rate-num">4.3</span>
+                                        </span>
+                                    </div>
+                                </div>    
+                            </div>
+                        </div>
+                        <div class="about-us__slide">
+                            <a href="#" class="about-us__image-box">
+                                <img src="./img/main__about-us/about-us__slider/image1.jpg" alt="villa" class="about-us__img">
+                            </a>
+                            <div class="review-box">
+                                <div class="about-us__review">
+                                    <a href="#" class="about-us__title_review title">Best! I got the house I wanted through Hounter</a>
+                                    <p class="about-us__paragraph_review review">Through this website I can get a house with the type and specifications I want very easily, without a complicated process to be able to find information on the house we want.</p>
+                                    <div class="about-us__rate">
+                                        <a href="#" class="about-us__user">
+                                            <img src="./img/main__featured/featured-slider/autor1.png" alt="users avatar" class="about-us__avatar">
+                                            <div class="about-us__user-descr">
+                                                <div class="about-us__user-name">Dianne Russell</div>
+                                                <div class="about-us__user-status">Manager Director</div>
+                                            </div>
+                                        </a>
+                                        <span class="about-us__rate-item">
+                                            <img src="./img/icons/rage.svg" alt="rate" class="about-us__rate-icon">
+                                            <span id="rateNumber" class="about-us__rate-num">4.6</span>
+                                        </span>
+                                    </div>
+                                </div>    
+                            </div>
+                        </div>
+                        <div class="about-us__slide">
+                            <a href="#" class="about-us__image-box">
+                                <img src="./img/main__about-us/about-us__slider/image3.jpg" alt="house" class="about-us__img">
+                            </a>
+                            <div class="review-box">
+                                <div class="about-us__review">
+                                    <a href="#" class="about-us__title_review title">Through the Hounter, I can get a house for my self</a>
+                                    <p class="about-us__paragraph_review review">By looking for information about what kind of house we want, we managed to get the house we wanted very quickly, and directly connected with the seller to be able to ask about the details, very helpful!</p>
+                                    <div class="about-us__rate">
+                                        <a href="#" class="about-us__user">
+                                            <img src="./img/main__featured/featured-slider/autor4.png" alt="users avatar" class="about-us__avatar">
+                                            <div class="about-us__user-descr">
+                                                <div class="about-us__user-name">Esther Howard</div>
+                                                <div class="about-us__user-status">Head of Marketing</div>
+                                            </div>
+                                        </a>
+                                        <span class="about-us__rate-item">
+                                            <img src="./img/icons/rage.svg" alt="rate" class="about-us__rate-icon">
+                                            <span id="rateNumber" class="about-us__rate-num">4.6</span>
+                                        </span>
+                                    </div>
+                                </div>    
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="main__selling">
+                <div class="selling__container">
+                    <div class="selling__head head-center">
+                        <span class="selling__headline headline headline_center">See tips and trick from our partnership</span>
+                        <div class="selling__hat selling-hat">
+                            <h2 class="selling-hat__title title title_center">Find out more about selling and buying homes</h2>
+                        </div>
+                        <div class="selling__btn-box">
+                            <a href="#" class="selling__btn">More Article</a>
+                        </div>
+                    </div>
+                    <div class="selling__offer">
+                        <div class="selling__post_hero">
+                            <a href="#" class="selling-post__img-box">
+                                <img src="./img/main__selling/image4.png" alt="example" class="selling-post__img">
+                            </a>
+                            <div class="selling-post__descr">
+                                <a href="#" class="selling-post__user">
+                                    <img src="./img/main__featured/featured-slider/autor3.png" alt="users avatar" class="user__avatar">
+                                    <div class="user__name">Cameron Williamson</div>
+                                </a>
+                                <a href="#" class="selling-post__title">12 Things to know before buying a house</a>
+                                <div class="selling-post__pharagraph paragraph">Want to buy a house but are unsure about what we should know, here I will try to explain what we should know and check when we want to buy a house</div>
+                                <div class="selling-post__date">
+                                    <img src="./img/icons/time.svg" class="selling-post__date-icon"></img>
+                                    <span class="selling-post__status">8 min read</span>
+                                    <span class="selling-post__slash">|</span>
+                                    <span class="selling-post__date-number">25 Apr 2021</span>
+                                </div>
+                            </div>
+                        </div>
+                        <ul class="selling__post-list">
+                            <li class="selling__post selling-post">
+                                <a href="#" class="selling-post__img-box">
+                                    <img src="./img/main__selling/image1.png" alt="example" class="selling-poxt__img">                                </a>
+                                <div class="selling-post__descr">
+                                    <a href="#" class="selling-post__user">
+                                        <img src="./img/main__featured/featured-slider/autor1.png" alt="users avatar" class="user__avatar">
+                                        <div class="user__name">Dianne Russell</div>
+                                    </a>
+                                    <a href="#" class="selling-post__title">The things we need to check when we want to buy a house</a>
+                                    <div class="selling-post__date">
+                                        <img src="./img/icons/time.svg" class="selling-post__date-icon"></img>
+                                        <span class="selling-post__status">4 min read</span>
+                                        <span class="selling-post__slash">|</span>
+                                        <span class="selling-post__date-number">25 Apr 2021</span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="selling__post selling-post">
+                                <a href="#" class="selling-post__img-box">
+                                    <img src="./img/main__selling/image2.png" alt="example" class="selling-poxt__img">                                </a>
+                                <div class="selling-post__descr">
+                                    <a href="#" class="selling-post__user">
+                                        <img src="./img/main__featured/featured-slider/autor2.png" alt="users avatar" class="user__avatar">
+                                        <div class="user__name">Courtney Henry</div>
+                                    </a>
+                                    <a href="#" class="selling-post__title">7 Ways to distinguish the quality of the house we want to buy</a>
+                                    <div class="selling-post__date">
+                                        <img src="./img/icons/time.svg" class="selling-post__date-icon"></img>
+                                        <span class="selling-post__status">6 min read</span>
+                                        <span class="selling-post__slash">|</span>
+                                        <span class="selling-post__date-number">24 Apr 2021</span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="selling__post selling-post">
+                                <a href="#" class="selling-post__img-box">
+                                    <img src="./img/main__selling/image3.png" alt="example" class="selling-poxt__img">                                </a>
+                                <div class="selling-post__descr">
+                                    <a href="#" class="selling-post__user">
+                                        <img src="./img/main__featured/featured-slider/autor3.png" alt="users avatar" class="user__avatar">
+                                        <div class="user__name">Darlene Robertson</div>
+                                    </a>
+                                    <a href="#" class="selling-post__title">The best way to know the quality of the house we want to buy</a>
+                                    <div class="selling-post__date">
+                                        <img src="./img/icons/time.svg" class="selling-post__date-icon"></img>
+                                        <span class="selling-post__status">2 min read</span>
+                                        <span class="selling-post__slash">|</span>
+                                        <span class="selling-post__date-number">25 Apr 2021</span>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <img src="./img/main__selling/decor-green.svg" alt="" class="selling__decor decor-green">
+                <img src="./img/main__selling/decor-yellow.svg" alt="" class="selling__decor decor-yellow">
+            </section>
+            <section class="main__subscribe">
+                <div class="subscribe__container">
+                    <div class="subscribe__content">
+                        <h2 class="subscribe__title title">
+                            Subscribe For More Info and update from Hounter
+                        </h2>
+                        <form class="subscribe__form">
+                            <img src="./img/icons/email.svg" alt="mail" class="subscribe__email_icon">
+                            <input type="email" class="subscribe__input" placeholder="Your email here">
+                            <button type="submit" id="buttonSent" class="subscribe__btn">Subsribe Now</button>
+                        </form>
+                    </div>
+                    <div class="subscribe__decor">
+                        <img src="./img/main__subscribe/decor/decor1.png" alt="" class="subscribe__decor-el el1">
+                        <img src="./img/main__subscribe/decor/decor2.png" alt="" class="subscribe__decor-el el2">
+                        <img src="./img/main__subscribe/decor/decor3.png" alt="" class="subscribe__decor-el el3">
+                        <img src="./img/main__subscribe/decor/decor4.png" alt="" class="subscribe__decor-el el4">
+                        <img src="./img/main__subscribe/decor/decor5.png" alt="" class="subscribe__decor-el el5">
+                        <img src="./img/main__subscribe/decor/decor6.png" alt="" class="subscribe__decor-el el6">
+                        <img src="./img/main__subscribe/decor/decor7.png" alt="" class="subscribe__decor-el el7">
+                        <img src="./img/main__subscribe/decor/decor8.png" alt="" class="subscribe__decor-el el8">
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="footer__container">
+                <div class="footer__hounter footer-hounter">
+                    <div class="footer-hounter__logo">
+                        <img src="./img/logo.svg" alt="" class="footer-hounter__logo-img">
+                        <div class="footer-hounter__logo-txt">Hounter</div>
+                    </div>
+                    <p class="footer-hounter__paragraph paragraph">
+                        We provide information about properties such as houses, villas and apartments to help people find their dream home
+                    </p>
+                    <div class="footer-hounter__social">
+                        <a href="" class="footer-hounter__social-box">
+                            <img src="./img/icons/facebook.svg" alt="facebook" class="footer-hounter__social-icon">
+                        </a>
+                        <a href="" class="footer-hounter__social-box">
+                            <img src="./img/icons/twitter.svg" alt="twitter" class="footer-hounter__social-icon">
+                        </a>
+                        <a href="" class="footer-hounter__social-box">
+                            <img src="./img/icons/instagram.svg" alt="instagram" class="footer-hounter__social-icon">
+                        </a>
+                    </div>
+                </div>
+                <div class="footer__menu footer-menu">
+                    <nav class="footer-menu__property">
+                        <div class="footer-menu__title title">Property</div>
+                        <ul class="footer-menu__menu">
+                            <li class="footer-menu__item"><a href="" class="footer-menu__link">House</a></li>
+                            <li class="footer-menu__item"><a href="" class="footer-menu__link">Apartment</a></li>
+                            <li class="footer-menu__item"><a href="" class="footer-menu__link">Villa</a></li>
+                        </ul>
+                    </nav>
+                    <nav class="footer-menu__article">
+                        <div class="footer-menu__title title">Article</div>
+                        <ul class="footer-menu__menu">
+                            <li class="footer-menu__item"><a href="" class="footer-menu__link">New Article</a></li>
+                            <li class="footer-menu__item"><a href="" class="footer-menu__link">Popular Article</a></li>
+                            <li class="footer-menu__item"><a href="" class="footer-menu__link">Most Read</a></li>
+                            <li class="footer-menu__item"><a href="" class="footer-menu__link">Tips & Tricks</a></li>
+                        </ul>
+                    </nav>
+                    <nav class="footer-menu__contact">
+                        <div class="footer-menu__title title">Contact</div>
+                        <ul class="footer-menu__menu">
+                            <li class="footer-menu__item">2464 Royal Ln. Mesa, New Jersey 45463</li>
+                            <li class="footer-menu__item footer-menu__contacts"><a href="tel:6715550110" class="footer-menu__link">(671) 555-0110</a></li>
+                            <li class="footer-menu__item footer-menu__contacts"><a href="mailto:info@hounter.com" class="footer-menu__link">info@hounter.com</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <img src="./img/footer/decor-green.svg" alt="" class="footer__decor-item footer__decor-item_green">
+                <img src="./img/footer/decor-blue.svg" alt="" class="footer__decor-item footer__decor-item_blue">
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="./js/slick.js"></script>
+    <script src="./js/burger.js"></script>
+    <script src="./js/categoryes.js"></script>
+    <script src="./js/events.js"></script>
+</body>
+</html>
