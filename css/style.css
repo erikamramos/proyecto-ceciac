@@ -596,6 +596,9 @@ body {
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
+.header__menu_link_dark{
+  color: #10B981 !important;
+}
 
 .menu-active {
   right: 0;
@@ -960,7 +963,7 @@ body {
   transition: ease 0.15s;
 }
 .find__article .find__search .find__search-btn::before {
-  content: "Search";
+  content: "Buscar";
   color: #fff;
   font-size: 14px;
   margin-right: 12px;
@@ -1000,7 +1003,10 @@ body {
 .find__article .find__coo .coo__list .coo__item {
   margin: 5px 16px;
 }
+.coo__img{
+  width: 70px;
 
+}
 .find__image {
   z-index: 5;
   display: -webkit-box;

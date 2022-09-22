@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hounter</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header" id="header">
+            <div class="header__container">
+                <div class="header__logo">
+                    <img src="./img/logo.png" alt="logo" class="header__logo_img" width="100" height="100" >
+                    <!--<p class="header__logo_title">Hounter</p>-->
+                </div>
+                <nav class="header__menu">
+                    <ul class="header__list">
+                        <li class="header__menu_item click"><a href="#" class="header__menu_link header__menu_link_dark">Nosotros</a></li>
+                        <li class="header__menu_item click"><a href="#" class="header__menu_link header__menu_link_dark">Blog</a></li>
+                        <li class="header__menu_item click"><a href="#" class="header__menu_link header__menu_link_dark">Registrate</a></li>
+                        <!--<li class="header__menu_item spoiler">
+                            <a href="#" class="header__menu_link">Property</a>
+                            <div class="header__menu_more">
+                                <span class="heeder-menu-more__line"></span>
+                                <span class="heeder-menu-more__line"></span>
+                            </div>
+                            <ul class="header__sub-menu">
+                                <li class="header__sub-menu_item click"><a href="#" class="header__sub-menu_link">Lorem</a></li>
+                                <li class="header__sub-menu_item click"><a href="#" class="header__sub-menu_link">Ipsum</a></li>
+                                <li class="header__sub-menu_item click"><a href="#" class="header__sub-menu_link">Dolor</a></li>
+                                <li class="header__sub-menu_item click"><a href="#" class="header__sub-menu_link">Sit</a></li>
+                            </ul>
+                        </li>-->
+                    </ul>
+                </nav>
+                <a href="#" class="header__sign ">
+                    Iniciar Sesión
+                </a>
+                <div id="header__burger">
+
+                    <span></span>
+                    <span></span>
+                    <span></span>
+
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <section class="main__featured" style="margin-top: 0px;">
+                <div class="featured__container">
+                    <div class="featured__head">
+                        <div class="featured__hat featured-hat">
+                            <h2 class="featured-hat__title title">Proyectos Destacados</h2>
+                            <nav class="featured-hat__categoryes">
+                                <ul class="featured-hat__menu">
+                                    <li id="houseButton" class="featured-hat__menu-item category-active">
+                                        <a href="#" class="featured-hat__menu-link">
+                                            <svg width="18" height="19" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path class="featured-hat__menu-icon" d="M18 8.83189V17.5C17.9998 17.7719 17.9262 18.0386 17.7868 18.272C17.6475 18.5054 17.4476 18.6968 17.2084 18.8259C16.9916 18.9432 16.7485 19.0031 16.5021 18.9999H11.9967C11.7978 18.9999 11.607 18.9209 11.4664 18.7803C11.3257 18.6396 11.2467 18.4488 11.2467 18.2499V13.7493C11.2467 13.5504 11.1677 13.3596 11.0271 13.2189C10.8864 13.0783 10.6956 12.9993 10.4967 12.9993H7.49673C7.29781 12.9993 7.10705 13.0783 6.9664 13.2189C6.82574 13.3596 6.74673 13.5504 6.74673 13.7493V18.2499C6.74673 18.4488 6.66771 18.6396 6.52706 18.7803C6.3864 18.9209 6.19564 18.9999 5.99673 18.9999H1.5002C1.28754 19.0005 1.07723 18.9556 0.883354 18.8682C0.689475 18.7808 0.516507 18.653 0.37604 18.4934C0.12946 18.2082 -0.00428751 17.8427 8.829e-06 17.4657V8.8318C0.000172265 8.62281 0.0439196 8.41615 0.128457 8.22503C0.212994 8.0339 0.336463 7.86251 0.490978 7.7218L7.99032 0.903078C8.26579 0.650753 8.62579 0.510777 8.99936 0.510742C9.37293 0.510707 9.73296 0.650617 10.0085 0.90289L17.5091 7.72189C17.6636 7.86263 17.787 8.03403 17.8716 8.22515C17.9561 8.41627 17.9998 8.62292 18 8.83189Z"/>
+                                            </svg>                                            
+                                            <div class="featured-hat__menu-category">Investigación</div>
+                                        </a>
+                                    </li>
+                                    <li id="villaButton" class="featured-hat__menu-item">
+                                        <a href="#" class="featured-hat__menu-link">
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path class="featured-hat__menu-icon" d="M7 20.9999H4C3.45 20.9999 3 20.5499 3 19.9999V8.68994C3 8.26994 3.25 7.89994 3.64 7.74994L14.64 3.51994C14.7921 3.46126 14.9561 3.44064 15.118 3.45986C15.2798 3.47909 15.4345 3.53758 15.5686 3.63025C15.7027 3.72292 15.8121 3.84696 15.8873 3.99156C15.9624 4.13617 16.0012 4.29696 16 4.45994V9.99994H8C7.45 9.99994 7 10.4499 7 10.9999V20.9999ZM17 11.9999H10C9.45 11.9999 9 12.4499 9 12.9999V19.9999C9 20.5499 9.45 20.9999 10 20.9999H14V16.9999C14 16.4499 14.45 15.9999 15 15.9999C15.55 15.9999 16 16.4499 16 16.9999V20.9999H20C20.55 20.9999 21 20.5499 21 19.9999V11.9999C21 10.8999 20.1 9.99994 19 9.99994C17.9 9.99994 17 10.8999 17 11.9999Z"/>
+                                            </svg>                                                                                            
+                                            <div class="featured-hat__menu-category">Emprendimiento</div>
+                                        </a>
+                                    </li>
+                                    <li id="appartmentButton" class="featured-hat__menu-item">
+                                        <a href="#" class="featured-hat__menu-link">
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path class="featured-hat__menu-icon" d="M17 11V5C17 3.9 16.1 3 15 3H9C7.9 3 7 3.9 7 5V7H5C3.9 7 3 7.9 3 9V19C3 20.1 3.9 21 5 21H11V17H13V21H19C20.1 21 21 20.1 21 19V13C21 11.9 20.1 11 19 11H17ZM7 19H5V17H7V19ZM7 15H5V13H7V15ZM7 11H5V9H7V11ZM11 15H9V13H11V15ZM11 11H9V9H11V11ZM11 7H9V5H11V7ZM15 15H13V13H15V15ZM15 11H13V9H15V11ZM15 7H13V5H15V7ZM19 19H17V17H19V19ZM19 15H17V13H19V15Z"/>
+                                            </svg>  
+                                            <div class="featured-hat__menu-category">PYMES</div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <div id="house" class="featured__slider featured-slider slider-active">
+                        <div class="featured-slider__card">
+                            <a href="#" class="featured-slider__image">
+                                <img src="./img/main__featured/featured-slider/house1.png" alt="" class="featured-slider__image-img">
+                                <a href="#" target="_blank" class="featured-slider__tag featured-slider__tag_popular">
+                                    <img src="./img/icons/popular-icon.svg" alt="" class="featured-slider__tag-icon">
+                                    <div class="featured-slider__tag-name">Popular</div>
+                                </a>
+                            </a>
+                            <div class="featured-slider__descr">
+                                <a href="#" class="featured-slider__title">Roselands House</a>
+                                <div class="featured-slider__price">
+                                    <span id="currency" class="featured-slider__price-currency">$</span>
+                                    <span class="featured-slider__price-num">35.000.000</span>
+                                </div>
+                            </div>
+                            <a href="#" class="featured-slider__autor">
+                                <img src="./img/main__featured/featured-slider/autor1.png" alt="" class="featured-slider__avatar">
+                                <div class="featured-slider__autor-descr">
+                                    <div class="featured-slider__autor-name">Dianne Russell</div>
+                                    <div id="place" class="featured-slider__autor-place">Manchester, Kentucky</div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="featured-slider__card">
+                            <a href="#" class="featured-slider__image">
+                                <img src="./img/main__featured/featured-slider/house2.png" alt="" class="featured-slider__image-img">
+                                <a href="#" target="_blank" class="featured-slider__tag featured-slider__tag_new-house">
+                                    <img src="./img/icons/new-house-icon.svg" alt="" class="featured-slider__tag-icon">
+                                    <div class="featured-slider__tag-name">New House</div>
+                                </a>
+                            </a>
+                            <div class="featured-slider__descr">
+                                <a href="#" class="featured-slider__title">Woodlandside</a>
+                                <div class="featured-slider__price">
+                                    <span id="currency" class="featured-slider__price-currency">$</span>
+                                    <span class="featured-slider__price-num">20.000.000</span>
+                                </div>
+                            </div>
+                            <a href="#" class="featured-slider__autor">
+                                <img src="./img/main__featured/featured-slider/autor2.png" alt="" class="featured-slider__avatar">
+                                <div class="featured-slider__autor-descr">
+                                    <div class="featured-slider__autor-name">Robert Fox</div>
+                                    <div id="place" class="featured-slider__autor-place">Dr. San Jose, South Dakota</div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="featured-slider__card">
+                            <a href="#" class="featured-slider__image">
+                                <img src="./img/main__featured/featured-slider/house3.png" alt="" class="featured-slider__image-img">
+                                <a href="#" target="_blank" class="featured-slider__tag featured-slider__tag_best-deals">
+                                    <img src="./img/icons/best-deals-icon.svg" alt="" class="featured-slider__tag-icon">
+                                    <div class="featured-slider__tag-name">Best Deals</div>
+                                </a>
+                            </a>
+                            <div class="featured-slider__descr">
+                                <a href="#" class="featured-slider__title">The Old Lighthouse</a>
+                                <div class="featured-slider__price">
+                                    <span id="currency" class="featured-slider__price-currency">$</span>
+                                    <span class="featured-slider__price-num">44.000.000</span>
+                                </div>
+                            </div>
+                            <a href="#" class="featured-slider__autor">
+                                <img src="./img/main__featured/featured-slider/autor3.png" alt="" class="featured-slider__avatar">
+                                <div class="featured-slider__autor-descr">
+                                    <div class="featured-slider__autor-name">Ronald Richards</div>
+                                    <div id="place" class="featured-slider__autor-place">Santa Ana, Illinois</div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="featured-slider__card">
+                            <a href="#" class="featured-slider__image">
+                                <img src="./img/main__featured/featured-slider/house4.png" alt="" class="featured-slider__image-img">
+                                <a href="#" target="_blank" class="featured-slider__tag featured-slider__tag_popular">
+                                    <img src="./img/icons/popular-icon.svg" alt="" class="featured-slider__tag-icon">
+                                    <div class="featured-slider__tag-name">Popular</div>
+                                </a>
+                            </a>
+                            <div class="featured-slider__descr">
+                                <a href="#" class="featured-slider__title">Cosmo's House</a>
+                                <div class="featured-slider__price">
+                                    <span id="currency" class="featured-slider__price-currency">$</span>
+                                    <span class="featured-slider__price-num">22.000.000</span>
+                                </div>
+                            </div>
+                            <a href="#" class="featured-slider__autor">
+                                <img src="./img/main__featured/featured-slider/autor4.png" alt="" class="featured-slider__avatar">
+                                <div class="featured-slider__autor-descr">
+                                    <div class="featured-slider__autor-name">Jenny Wilson</div>
+                                    <div id="place" class="featured-slider__autor-place">Preston Rd. Inglewood, Maine 98380</div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div id="villa" class="featured__slider featured-slider">
+                        <div class="featured-slider__card">
+                            <a href="#" class="featured-slider__image">
+                                <img src="./img/main__featured/featured-slider/house4.png" alt="" class="featured-slider__image-img">
+                                <a href="#" target="_blank" class="featured-slider__tag featured-slider__tag_popular">
+                                    <img src="./img/icons/popular-icon.svg" alt="" class="featured-slider__tag-icon">
+                                    <div class="featured-slider__tag-name">Popular</div>
+                                </a>
+                            </a>
+                            <div class="featured-slider__descr">
+                                <a href="#" class="featured-slider__title">Cosmo's House</a>
+                                <div class="featured-slider__price">
+                                    <span id="currency" class="featured-slider__price-currency">$</span>
+                                    <span class="featured-slider__price-num">22.000.000</span>
+                                </div>
+                            </div>
+                            <a href="#" class="featured-slider__autor">
+                                <img src="./img/main__featured/featured-slider/autor4.png" alt="" class="featured-slider__avatar">
+                                <div class="featured-slider__autor-descr">
+                                    <div class="featured-slider__autor-name">Jenny Wilson</div>
+                                    <div id="place" class="featured-slider__autor-place">Preston Rd. Inglewood, Maine 98380</div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="featured-slider__card">
+                            <a href="#" class="featured-slider__image">
+                                <img src="./img/main__featured/featured-slider/house1.png" alt="" class="featured-slider__image-img">
+                                <a href="#" target="_blank" class="featured-slider__tag featured-slider__tag_popular">
+                                    <img src="./img/icons/popular-icon.svg" alt="" class="featured-slider__tag-icon">
+                                    <div class="featured-slider__tag-name">Popular</div>
+                                </a>
+                            </a>
+                            <div class="featured-slider__descr">
+                                <a href="#" class="featured-slider__title">Roselands House</a>
+                                <div class="featured-slider__price">
+                                    <span id="currency" class="featured-slider__price-currency">$</span>
+                                    <span class="featured-slider__price-num">35.000.000</span>
+                                </div>
+                            </div>
+                            <a href="#" class="featured-slider__autor">
+                                <img src="./img/main__featured/featured-slider/autor1.png" alt="" class="featured-slider__avatar">
+                                <div class="featured-slider__autor-descr">
+                                    <div class="featured-slider__autor-name">Dianne Russell</div>
+                                    <div id="place" class="featured-slider__autor-place">Manchester, Kentucky</div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="featured-slider__card">
+                            <a href="#" class="featured-slider__image">
+                                <img src="./img/main__featured/featured-slider/house2.png" alt="" class="featured-slider__image-img">
+                                <a href="#" target="_blank" class="featured-slider__tag featured-slider__tag_new-house">
+                                    <img src="./img/icons/new-house-icon.svg" alt="" class="featured-slider__tag-icon">
+                                    <div class="featured-slider__tag-name">New House</div>
+                                </a>
+                            </a>
+                            <div class="featured-slider__descr">
+                                <a href="#" class="featured-slider__title">Woodlandside</a>
+                                <div class="featured-slider__price">
+                                    <span id="currency" class="featured-slider__price-currency">$</span>
+                                    <span class="featured-slider__price-num">20.000.000</span>
+                                </div>
+                            </div>
+                            <a href="#" class="featured-slider__autor">
+                                <img src="./img/main__featured/featured-slider/autor2.png" alt="" class="featured-slider__avatar">
+                                <div class="featured-slider__autor-descr">
+                                    <div class="featured-slider__autor-name">Robert Fox</div>
+                                    <div id="place" class="featured-slider__autor-place">Dr. San Jose, South Dakota</div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="featured-slider__card">
+                            <a href="#" class="featured-slider__image">
+                                <img src="./img/main__featured/featured-slider/house3.png" alt="" class="featured-slider__image-img">
+                                <a href="#" target="_blank" class="featured-slider__tag featured-slider__tag_best-deals">
+                                    <img src="./img/icons/best-deals-icon.svg" alt="" class="featured-slider__tag-icon">
+                                    <div class="featured-slider__tag-name">Best Deals</div>
+                                </a>
+                            </a>
+                            <div class="featured-slider__descr">
+                                <a href="#" class="featured-slider__title">The Old Lighthouse</a>
+                                <div class="featured-slider__price">
+                                    <span id="currency" class="featured-slider__price-currency">$</span>
+                                    <span class="featured-slider__price-num">44.000.000</span>
+                                </div>
+                            </div>
+                            <a href="#" class="featured-slider__autor">
+                                <img src="./img/main__featured/featured-slider/autor3.png" alt="" class="featured-slider__avatar">
+                                <div class="featured-slider__autor-descr">
+                                    <div class="featured-slider__autor-name">Ronald Richards</div>
+                                    <div id="place" class="featured-slider__autor-place">Santa Ana, Illinois</div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div id="appartment" class="featured__slider featured-slider">
+                        <div class="featured-slider__card">
+                            <a href="#" class="featured-slider__image">
+                                <img src="./img/main__featured/featured-slider/house3.png" alt="" class="featured-slider__image-img">
+                                <a href="#" target="_blank" class="featured-slider__tag featured-slider__tag_best-deals">
+                                    <img src="./img/icons/best-deals-icon.svg" alt="" class="featured-slider__tag-icon">
+                                    <div class="featured-slider__tag-name">Best Deals</div>
+                                </a>
+                            </a>
+                            <div class="featured-slider__descr">
+                                <a href="#" class="featured-slider__title">The Old Lighthouse</a>
+                                <div class="featured-slider__price">
+                                    <span id="currency" class="featured-slider__price-currency">$</span>
+                                    <span class="featured-slider__price-num">44.000.000</span>
+                                </div>
+                            </div>
+                            <a href="#" class="featured-slider__autor">
+                                <img src="./img/main__featured/featured-slider/autor3.png" alt="" class="featured-slider__avatar">
+                                <div class="featured-slider__autor-descr">
+                                    <div class="featured-slider__autor-name">Ronald Richards</div>
+                                    <div id="place" class="featured-slider__autor-place">Santa Ana, Illinois</div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="featured-slider__card">
+                            <a href="#" class="featured-slider__image">
+                                <img src="./img/main__featured/featured-slider/house4.png" alt="" class="featured-slider__image-img">
+                                <a href="#" target="_blank" class="featured-slider__tag featured-slider__tag_popular">
+                                    <img src="./img/icons/popular-icon.svg" alt="" class="featured-slider__tag-icon">
+                                    <div class="featured-slider__tag-name">Popular</div>
+                                </a>
+                            </a>
+                            <div class="featured-slider__descr">
+                                <a href="#" class="featured-slider__title">Cosmo's House</a>
+                                <div class="featured-slider__price">
+                                    <span id="currency" class="featured-slider__price-currency">$</span>
+                                    <span class="featured-slider__price-num">22.000.000</span>
+                                </div>
+                            </div>
+                            <a href="#" class="featured-slider__autor">
+                                <img src="./img/main__featured/featured-slider/autor4.png" alt="" class="featured-slider__avatar">
+                                <div class="featured-slider__autor-descr">
+                                    <div class="featured-slider__autor-name">Jenny Wilson</div>
+                                    <div id="place" class="featured-slider__autor-place">Preston Rd. Inglewood, Maine 98380</div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="featured-slider__card">
+                            <a href="#" class="featured-slider__image">
+                                <img src="./img/main__featured/featured-slider/house1.png" alt="" class="featured-slider__image-img">
+                                <a href="#" target="_blank" class="featured-slider__tag featured-slider__tag_popular">
+                                    <img src="./img/icons/popular-icon.svg" alt="" class="featured-slider__tag-icon">
+                                    <div class="featured-slider__tag-name">Popular</div>
+                                </a>
+                            </a>
+                            <div class="featured-slider__descr">
+                                <a href="#" class="featured-slider__title">Roselands House</a>
+                                <div class="featured-slider__price">
+                                    <span id="currency" class="featured-slider__price-currency">$</span>
+                                    <span class="featured-slider__price-num">35.000.000</span>
+                                </div>
+                            </div>
+                            <a href="#" class="featured-slider__autor">
+                                <img src="./img/main__featured/featured-slider/autor1.png" alt="" class="featured-slider__avatar">
+                                <div class="featured-slider__autor-descr">
+                                    <div class="featured-slider__autor-name">Dianne Russell</div>
+                                    <div id="place" class="featured-slider__autor-place">Manchester, Kentucky</div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="featured-slider__card">
+                            <a href="#" class="featured-slider__image">
+                                <img src="./img/main__featured/featured-slider/house2.png" alt="" class="featured-slider__image-img">
+                                <a href="#" target="_blank" class="featured-slider__tag featured-slider__tag_new-house">
+                                    <img src="./img/icons/new-house-icon.svg" alt="" class="featured-slider__tag-icon">
+                                    <div class="featured-slider__tag-name">New House</div>
+                                </a>
+                            </a>
+                            <div class="featured-slider__descr">
+                                <a href="#" class="featured-slider__title">Woodlandside</a>
+                                <div class="featured-slider__price">
+                                    <span id="currency" class="featured-slider__price-currency">$</span>
+                                    <span class="featured-slider__price-num">20.000.000</span>
+                                </div>
+                            </div>
+                            <a href="#" class="featured-slider__autor">
+                                <img src="./img/main__featured/featured-slider/autor2.png" alt="" class="featured-slider__avatar">
+                                <div class="featured-slider__autor-descr">
+                                    <div class="featured-slider__autor-name">Robert Fox</div>
+                                    <div id="place" class="featured-slider__autor-place">Dr. San Jose, South Dakota</div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="footer__container">
+                <div class="footer__hounter footer-hounter">
+                    <div class="footer-hounter__logo">
+                        <img src="./img/logo.png" alt="" class="footer-hounter__logo-img" width="120" height="120">
+                        <!--<div class="footer-hounter__logo-txt">Hounter</div>-->
+                    </div>
+                    <p class="footer-hounter__paragraph paragraph">
+                        Se busca fortalecer cultura de innovación en comunidad académica, que ya se ha iniciado a través del trabajo realizado por la red GESIT
+                    </p>
+                    <div class="footer-hounter__social">
+                        <a href="" class="footer-hounter__social-box">
+                            <img src="./img/icons/facebook.svg" alt="facebook" class="footer-hounter__social-icon">
+                        </a>
+                        <a href="" class="footer-hounter__social-box">
+                            <img src="./img/icons/twitter.svg" alt="twitter" class="footer-hounter__social-icon">
+                        </a>
+                        <a href="" class="footer-hounter__social-box">
+                            <img src="./img/icons/instagram.svg" alt="instagram" class="footer-hounter__social-icon">
+                        </a>
+                    </div>
+                </div>
+                <div class="footer__menu footer-menu">
+                    <nav class="footer-menu__property">
+                        <div class="footer-menu__title title">Poyectos</div>
+                        <ul class="footer-menu__menu">
+                            <li class="footer-menu__item"><a href="" class="footer-menu__link">Investigación</a></li>
+                            <li class="footer-menu__item"><a href="" class="footer-menu__link">Emprendimiento</a></li>
+                            <li class="footer-menu__item"><a href="" class="footer-menu__link">PYMES</a></li>
+                        </ul>
+                    </nav>
+                    <nav class="footer-menu__article">
+                        <div class="footer-menu__title title">Blog</div>
+                        <ul class="footer-menu__menu">
+                            <li class="footer-menu__item"><a href="" class="footer-menu__link">Nuevos</a></li>
+                            <li class="footer-menu__item"><a href="" class="footer-menu__link">Populares</a></li>
+                            <li class="footer-menu__item"><a href="" class="footer-menu__link">Más Leídos</a></li>
+                        </ul>
+                    </nav>
+                    <nav class="footer-menu__contact">
+                        <div class="footer-menu__title title">Contacto</div>
+                        <ul class="footer-menu__menu">
+                            <li class="footer-menu__item">Via universidad tecnológica de panamá</li>
+                            <li class="footer-menu__item footer-menu__contacts"><a href="tel:0819-07289" class="footer-menu__link">0819-07289</a></li>
+                            <li class="footer-menu__item footer-menu__contacts"><a href="mailto:zoila.decastillo@gmail.com" class="footer-menu__link">zoila.decastillo@gmail.com</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <img src="./img/footer/decor-green.svg" alt="" class="footer__decor-item footer__decor-item_green">
+                <img src="./img/footer/decor-blue.svg" alt="" class="footer__decor-item footer__decor-item_blue">
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="./js/slick.js"></script>
+    <script src="./js/burger.js"></script>
+    <script src="./js/categoryes.js"></script>
+    <script src="./js/events.js"></script>
+</body>
+</html>
