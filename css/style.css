@@ -104,7 +104,7 @@ h1, h2, h3, h4, h5, h6 {
 .title {
   font-size: 32px;
   color: #1B1C57;
-  text-transform: capitalize;
+  /*text-transform: capitalize;*/
   line-height: 40px;
 }
 
@@ -169,7 +169,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
   font-size: 32px;
   line-height: 40px;
-  text-transform: capitalize;
+  /*text-transform: capitalize;*/
 }
 @media screen and (max-width: 686px) {
   .title {
@@ -1004,7 +1004,7 @@ body {
   margin: 5px 16px;
 }
 .coo__img{
-  width: 70px;
+  height: 60px;
 
 }
 .find__image {
